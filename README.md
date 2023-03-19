@@ -12,4 +12,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<img align="center" src="/github-metrics.svg" alt="Metrics" width="100%">
+<table>
+  <tr>
+    <td><img src="/github-metrics.svg" alt="Metrics"></td>
+    <td><img src="/metrics.plugin.achievements.compact.svg" alt="Achievements"></td>
+  </tr>
+</table>
