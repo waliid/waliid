@@ -20,19 +20,20 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
   github-achievements:
-    name: 🏆 Achievements
+    name: 📅 Isometric commit calendar
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.achievements.compact.svg
+          filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          # Options
+          user: waliid
+          template: classic
           base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
+          config_display: large
+          config_octicon: yes
+          config_timezone: Europe/Zurich
+          config_twemoji: yes
