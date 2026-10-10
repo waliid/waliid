@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" width="960" height="260" role="img" aria-label="Walid Kayhal, Apple engineer building video players for iOS, tvOS and macOS. The name streams in like an adaptive video, from 240p up to 2160p.">
+  <defs>
+    <filter id="px16" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" x="0" y="0" width="960" height="260">
+      <feFlood x="8" y="8" width="1" height="1"/><feComposite width="16" height="16"/><feTile result="g"/>
+      <feComposite in="SourceGraphic" in2="g" operator="in"/><feMorphology operator="dilate" radius="8"/>
+    </filter>
+    <filter id="px11" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" x="0" y="0" width="960" height="260">
+      <feFlood x="5" y="5" width="1" height="1"/><feComposite width="11" height="11"/><feTile result="g"/>
+      <feComposite in="SourceGraphic" in2="g" operator="in"/><feMorphology operator="dilate" radius="5"/>
+    </filter>
+    <filter id="px7" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" x="0" y="0" width="960" height="260">
+      <feFlood x="3" y="3" width="1" height="1"/><feComposite width="7" height="7"/><feTile result="g"/>
+      <feComposite in="SourceGraphic" in2="g" operator="in"/><feMorphology operator="dilate" radius="3"/>
+    </filter>
+    <filter id="px4" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" x="0" y="0" width="960" height="260">
+      <feFlood x="2" y="2" width="1" height="1"/><feComposite width="4" height="4"/><feTile result="g"/>
+      <feComposite in="SourceGraphic" in2="g" operator="in"/><feMorphology operator="dilate" radius="2"/>
+    </filter>
+    <filter id="px2" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" x="0" y="0" width="960" height="260">
+      <feFlood x="1" y="1" width="1" height="1"/><feComposite width="2" height="2"/><feTile result="g"/>
+      <feComposite in="SourceGraphic" in2="g" operator="in"/><feMorphology operator="dilate" radius="1"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; }
+  </style>
+
+  <g transform="translate(480 78)" fill="#8b949e" opacity="0">
+    <g><rect x="-1.5" y="-14" width="3" height="8" rx="1.5" transform="rotate(0)" opacity="0.15"/><rect x="-1.5" y="-14" width="3" height="8" rx="1.5" transform="rotate(45)" opacity="0.2714"/><rect x="-1.5" y="-14" width="3" height="8" rx="1.5" transform="rotate(90)" opacity="0.3929"/><rect x="-1.5" y="-14" width="3" height="8" rx="1.5" transform="rotate(135)" opacity="0.5143"/><rect x="-1.5" y="-14" width="3" height="8" rx="1.5" transform="rotate(180)" opacity="0.6357"/><rect x="-1.5" y="-14" width="3" height="8" rx="1.5" transform="rotate(225)" opacity="0.7571"/><rect x="-1.5" y="-14" width="3" height="8" rx="1.5" transform="rotate(270)" opacity="0.8786"/><rect x="-1.5" y="-14" width="3" height="8" rx="1.5" transform="rotate(315)" opacity="1"/><animateTransform attributeName="transform" type="rotate" values="0;45;90;135;180;225;270;315" dur=".8s" calcMode="discrete" repeatCount="indefinite" additive="sum"/></g>
+    <animate attributeName="opacity" values="1;0;0;0;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/>
+  </g>
+  <text x="480" y="100" text-anchor="middle" font-size="64" font-weight="600" letter-spacing="-2.6" fill="#f5f5f7" opacity="0">Walid Kayhal<animate attributeName="filter" values="none;url(#px16);url(#px11);url(#px7);url(#px4);url(#px2);none" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;1;1;1" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="480" y="142" text-anchor="middle" font-size="19" letter-spacing="-.2" fill="#8b949e">Apple engineer building video players for iOS, tvOS &amp; macOS</text>
+
+  <rect x="300" y="178" width="360" height="2" rx="1" fill="#30363d"/>
+  <rect x="300" y="178" height="2" rx="1" fill="#6e7681" width="0">
+    <animate attributeName="width" values="0;22.5;45.9;70.2;98.1;126.9;153.9;207.9" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595;1" dur="11.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="300" y="178" height="2" rx="1" fill="#f5f5f7" width="0">
+    <animate attributeName="width" values="0;99.9" dur="11.1s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="300" cy="179" r="4.5" fill="#f5f5f7">
+    <animate attributeName="cx" values="300;399.9" dur="11.1s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="254.1" y="226" class="mono" fill="#6e7681">res</text>
+  <text x="284.22" y="226" class="mono" fill="#6e7681" opacity="0">···<animate attributeName="opacity" values="1;0;0;0;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="284.22" y="226" class="mono" fill="#f5f5f7" opacity="0">240p<animate attributeName="opacity" values="0;1;0;0;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="284.22" y="226" class="mono" fill="#f5f5f7" opacity="0">360p<animate attributeName="opacity" values="0;0;1;0;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="284.22" y="226" class="mono" fill="#f5f5f7" opacity="0">540p<animate attributeName="opacity" values="0;0;0;1;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="284.22" y="226" class="mono" fill="#f5f5f7" opacity="0">720p<animate attributeName="opacity" values="0;0;0;0;1;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="284.22" y="226" class="mono" fill="#f5f5f7" opacity="0">1080p<animate attributeName="opacity" values="0;0;0;0;0;1;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="284.22" y="226" class="mono" fill="#f5f5f7" opacity="0">2160p<animate attributeName="opacity" values="0;0;0;0;0;0;1" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="351.99" y="226" class="mono" fill="#6e7681">bitrate</text>
+  <text x="412.23" y="226" class="mono" fill="#f5f5f7" opacity="0">0.0 Mbps<animate attributeName="opacity" values="1;0;0;0;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="412.23" y="226" class="mono" fill="#f5f5f7" opacity="0">0.4 Mbps<animate attributeName="opacity" values="0;1;0;0;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="412.23" y="226" class="mono" fill="#f5f5f7" opacity="0">0.8 Mbps<animate attributeName="opacity" values="0;0;1;0;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="412.23" y="226" class="mono" fill="#f5f5f7" opacity="0">2.0 Mbps<animate attributeName="opacity" values="0;0;0;1;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="412.23" y="226" class="mono" fill="#f5f5f7" opacity="0">4.5 Mbps<animate attributeName="opacity" values="0;0;0;0;1;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="412.23" y="226" class="mono" fill="#f5f5f7" opacity="0">8.0 Mbps<animate attributeName="opacity" values="0;0;0;0;0;1;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="412.23" y="226" class="mono" fill="#f5f5f7" opacity="0">16.0 Mbps<animate attributeName="opacity" values="0;0;0;0;0;0;1" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="510.12" y="226" class="mono" fill="#6e7681">buffer</text>
+  <text x="562.83" y="226" class="mono" fill="#f5f5f7" opacity="0">0.0 s<animate attributeName="opacity" values="1;0;0;0;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="562.83" y="226" class="mono" fill="#f5f5f7" opacity="0">1.6 s<animate attributeName="opacity" values="0;1;0;0;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="562.83" y="226" class="mono" fill="#f5f5f7" opacity="0">3.2 s<animate attributeName="opacity" values="0;0;1;0;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="562.83" y="226" class="mono" fill="#f5f5f7" opacity="0">5.1 s<animate attributeName="opacity" values="0;0;0;1;0;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="562.83" y="226" class="mono" fill="#f5f5f7" opacity="0">7.4 s<animate attributeName="opacity" values="0;0;0;0;1;0;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="562.83" y="226" class="mono" fill="#f5f5f7" opacity="0">9.8 s<animate attributeName="opacity" values="0;0;0;0;0;1;0" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="562.83" y="226" class="mono" fill="#f5f5f7" opacity="0">12.0 s<animate attributeName="opacity" values="0;0;0;0;0;0;1" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+  <text x="638.13" y="226" class="mono" fill="#6e7681">dropped</text>
+  <text x="698.37" y="226" class="mono" fill="#f5f5f7" opacity="0">0<animate attributeName="opacity" values="1;1;1;1;1;1;1" keyTimes="0;0.0811;0.1712;0.2432;0.3153;0.3874;0.4595" calcMode="discrete" dur="11.1s" repeatCount="indefinite"/></text>
+</svg>
